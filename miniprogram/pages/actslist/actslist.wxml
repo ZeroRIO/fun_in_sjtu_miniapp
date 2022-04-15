@@ -1,0 +1,16 @@
+<!--pages/actslist/actslist.wxml-->
+<view class="container" >
+  <view class="title">已有活动列表</view>
+   <view class='a' wx:for="{{list}}" wx:key="key">
+    <view class = 'num'>序号{{index+1}}</view>
+    <view>活动概述：{{item.outline}}</view>
+    <view>时间：{{item.time}}</view>
+    <view>预计时长：{{item.timelen}}</view>
+    <view>活动总名额：{{item.totalnum}}</view>
+    <view>已组队人数：{{item.donenum}}</view>
+    <view>联系微信号：{{item.contact}}</view>
+    <view>备注：{{item.more}}</view>
+    <button type="primary" bindtap="join">点击加入</button>
+    <button type="default" bindtap="quit">点击退出</button>
+  </view>
+</view>

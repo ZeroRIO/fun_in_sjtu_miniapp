@@ -1,0 +1,13 @@
+<!--pages/help/help.wxml-->
+<view class="container">
+  <view class="title">帮助与反馈</view>
+  <view class="subtitle">关于</view>
+
+    <text>约在交大小程序旨在为交大师生提供线上组局平台，用于师生共享组局信息、解决师生组局难问题，项目提供发起组局、加入组局、退出组局、删除组局等功能，且在不断优化当中，后续优化过程中将进一步改善用户体验，并更多保护用户信息，敬请期待。</text>
+  
+  <view class="subtitle"> 反馈</view>
+    <text>如您在使用过程中遇到任何问题或有改进意见，欢迎发送至开发者邮箱：aH@sjtu.edu.cn，谢谢~</text>
+  
+
+  <view class="environment">Fun in SJTU </view>
+</view>

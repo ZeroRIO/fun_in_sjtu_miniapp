@@ -1,0 +1,1 @@
+"D:\Study\wechat-devtool\微信web开发者工具\cli.bat" cloud functions deploy --e cloud1-6gki18zid54ff268 --n quickstartFunctions --r --project "D:\Study\wechat-devtool\fun in sjtu" --report_first --report

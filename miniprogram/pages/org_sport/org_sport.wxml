@@ -1,0 +1,95 @@
+<view class="container">
+  <view class="title">发起组局</view>
+  <view class="page-body">
+    <form catchsubmit="formSubmit" catchreset="formReset">
+
+      <view class="page-section">
+        <view class="page-section-title">活动概述</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="outline" placeholder="活动大致描述" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">时间</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="time" placeholder="eg. 03-12 15:00" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">预计时长</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="timelen" placeholder="预计活动时长(单位为小时)" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">地点</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="location" placeholder="活动地点（可说明待定）" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section page-section-gap">
+        <view class="page-section-title">预计总人数</view>
+        <slider value="2" name="totalnum" min = "2" max = "15" show-value ></slider>
+      </view>
+      
+      <view class="page-section">
+        <view class="page-section-title">已组人数</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="donenum" placeholder="已完成组队人数" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">联系人微信号</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="contact" placeholder="输入联系人微信" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="page-section">
+        <view class="page-section-title">备注</view>
+        <view class="weui-cells weui-cells_after-title">
+          <view class="weui-cell weui-cell_input">
+            <view class="weui-cell__bd" style="margin: 30rpx 0" >
+              <input class="weui-input" name="more" placeholder="备注说明" />
+            </view>
+          </view>
+        </view>
+      </view>
+
+      <view class="btn-area">
+        <button style="margin: 30rpx 0" type="primary" formType="submit" >提交</button>
+        <button style="margin: 30rpx 0" formType="reset">重置</button>
+      </view>
+    </form>
+  </view>
+
+</view>

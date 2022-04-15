@@ -1,0 +1,10 @@
+<view class="container">
+
+<view class="title">约在交大</view>
+
+<view class="top_tip">交大活动在线组队平台</view>
+
+
+<date-time-picker value="{{value}}" startYear="2019" endYear="2020" bind:change="handleChange">时间：{{value}}</date-time-picker>
+<view class="environment" style="position:fixed ;bottom:0;width: 750rpx" >Fun in SJTU </view>
+</view>>
